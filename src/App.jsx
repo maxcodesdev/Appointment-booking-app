@@ -5,6 +5,7 @@ export default function App() {
   const [selectedService, setSelectedService] = useState("");
   const [selectedTime, setSelectedTime] = useState("");
   const [bookings, setBookings] = useState([]);
+  const[newTodo,setNewTodo]= useState("")
 
   const services = ["Haircut", "Skin Fade", "Beard Trim", "Haircut + Beard"];
   const timeSlots = ["10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:00 PM"];
