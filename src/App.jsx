@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+//Barber booking
 export default function App() {
   const [customerName, setCustomerName] = useState("");
   const [selectedService, setSelectedService] = useState("");
